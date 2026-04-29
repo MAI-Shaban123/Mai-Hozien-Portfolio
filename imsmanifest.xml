@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest identifier="_6VtuE6JVJd6_course_id" version="1.0" xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+  <metadata>
+    <schema>ADL SCORM</schema>
+    <schemaversion>1.2</schemaversion>
+    <lom xmlns="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd">
+      <general>
+        <title>
+          <langstring xml:lang="x-none">https://www.fakenews.com/</langstring>
+        </title>
+      </general>
+      <lifecycle>
+        <version>
+          <langstring xml:lang="x-none">1</langstring>
+        </version>
+        <status>
+          <source>
+            <langstring xml:lang="x-none">LOMv1.0</langstring>
+          </source>
+          <value>
+            <langstring xml:lang="x-none">Final</langstring>
+          </value>
+        </status>
+      </lifecycle>
+      <metametadata>
+        <metadatascheme>ADL SCORM 1.2</metadatascheme>
+      </metametadata>
+      <educational>
+        <typicallearningtime>
+          <datetime>PT0H0M0S</datetime>
+        </typicallearningtime>
+      </educational>
+      <rights>
+        <cost>
+          <source>
+            <langstring xml:lang="x-none">LOMv1.0</langstring>
+          </source>
+          <value>
+            <langstring xml:lang="x-none">yes</langstring>
+          </value>
+        </cost>
+        <copyrightandotherrestrictions>
+          <source>
+            <langstring xml:lang="x-none">LOMv1.0</langstring>
+          </source>
+          <value>
+            <langstring xml:lang="x-none">yes</langstring>
+          </value>
+        </copyrightandotherrestrictions>
+      </rights>
+    </lom>
+  </metadata>
+  <organizations default="https://www.fakenews.com/_ORG">
+    <organization identifier="https://www.fakenews.com/_ORG">
+      <title>https://www.fakenews.com/</title>
+      <item identifier="https://www.fakenews.com/_SCO" isvisible="true" identifierref="__6VtuE6JVJd6_course_id_RES">
+        <title>https://www.fakenews.com/</title>
+      </item>
+    </organization>
+  </organizations>
+  <resources>
+    <resource identifier="__6VtuE6JVJd6_course_id_RES" type="webcontent" href="launcher.html" adlcp:scormtype="sco">
+      <file href="story_content/thumbnail.jpg" />
+      <file href="story_content/64s1CPDy1Ka_44100_48_0.mp3" />
+      <file href="mobile/6oIP61iALwv_80_DX2560_DY2560_CX2015_CY1133.jpg" />
+      <file href="mobile/5i8IVCI4vBx_80_DX2560_DY2560_CX1920_CY1080.png" />
+      <file href="mobile/5zyDz11wXIJ_80_DX104_DY104_CX77_CY66.png" />
+      <file href="mobile/6dmk1HtQoEj_80_DX100_DY100_CX73_CY64.png" />
+      <file href="mobile/62cPTegl7QS_80_DX84_DY84_CX62_CY63.png" />
+      <file href="mobile/6ScD2pq1I76_80_DX86_DY86_CX64_CY63.png" />
+      <file href="mobile/6mDnY3pslU3_80_DX104_DY104_CX77_CY66.png" />
+      <file href="mobile/5eOeFxMkAF9_80_DX98_DY98_CX73_CY64.png" />
+      <file href="mobile/6DiMTfDKqlO_80_DX86_DY86_CX64_CY63.png" />
+      <file href="mobile/6ho6WcWilwH_80_DX84_DY84_CX63_CY63.png" />
+      <file href="mobile/605AgV1FXn1_80_DX104_DY104_CX77_CY66.png" />
+      <file href="mobile/6DJXnsuyeDr_80_DX86_DY86_CX64_CY63.png" />
+      <file href="mobile/6bzOaxbElfm_80_DX104_DY104_CX77_CY66.png" />
+      <file href="mobile/5ZeoFYFUGZj_80_DX98_DY98_CX73_CY64.png" />
+      <file href="mobile/5ulQRuORCIf_80_DX86_DY86_CX64_CY63.png" />
+      <file href="mobile/6Bm7LEEd0lI_80_DX104_DY104_CX77_CY66.png" />
+      <file href="mobile/6jEJAgxxQT5_80_DX104_DY104_CX77_CY66.png" />
+      <file href="mobile/5aVoU5DrFsj_80_DX98_DY98_CX73_CY64.png" />
+      <file href="mobile/6KD28k3c5Lp_80_DX86_DY86_CX64_CY63.png" />
+      <file href="mobile/6TfkDB2G9yT_80_DX104_DY104_CX77_CY66.png" />
+      <file href="mobile/667mn1lZM4A_80_DX86_DY86_CX64_CY63.png" />
+      <file href="mobile/64MJxuxyi8K_80_DX98_DY98_CX73_CY64.png" />
+      <file href="mobile/5hyvMaZrdsu_80_DX86_DY86_CX64_CY63.png" />
+      <file href="mobile/6YBx21gmV2E_80_DX104_DY104_CX77_CY66.png" />
+      <file href="mobile/6JbGXRk6dU6_80_DX98_DY98_CX73_CY64.png" />
+      <file href="mobile/65NYmZbAMJL_80_DX98_DY98_CX73_CY64.png" />
+      <file href="mobile/6P1udDvWBJy_80_DX104_DY104_CX78_CY66.png" />
+      <file href="mobile/6N8iuvbqDH8_80_DX84_DY84_CX63_CY62.png" />
+      <file href="mobile/6pUm8D1H1jj_80_DX110_DY110_CX82_CY77.png" />
+      <file href="mobile/6IeGOLe8hWy_80_DX104_DY104_CX77_CY66.png" />
+      <file href="mobile/6g5IQnhJ7sH_80_DX98_DY98_CX73_CY64.png" />
+      <file href="mobile/64KxG62w9sA_80_DX86_DY86_CX64_CY63.png" />
+      <file href="meta.xml" />
+      <file href="story_content/user.js" />
+      <file href="html5/data/css/output.min.css" />
+      <file href="html5/data/js/5bOVQWdmOBi.js" />
+      <file href="html5/data/js/5huUbQbtOSF.js" />
+      <file href="html5/data/js/5q45Bo8G0B0.js" />
+      <file href="html5/data/js/5rU9STGX0yh.js" />
+      <file href="html5/data/js/63ay8UV1Do4.js" />
+      <file href="html5/data/js/6aWf6QWH3FK.js" />
+      <file href="html5/data/js/6cDSE3uZIuU.js" />
+      <file href="html5/data/js/6CjdoHfFpID.js" />
+      <file href="html5/data/js/6IavseJCNDX.js" />
+      <file href="html5/data/js/6LsiYvpGGno.js" />
+      <file href="html5/data/js/6nFJvbkopfe.js" />
+      <file href="html5/data/js/6qsMlh5c7Sb.js" />
+      <file href="html5/data/js/6RGYjyFxIoV.js" />
+      <file href="html5/data/js/data.js" />
+      <file href="html5/data/js/frame.js" />
+      <file href="html5/data/js/paths.js" />
+      <file href="html5/lib/scripts/bootstrapper.min.js" />
+      <file href="html5/lib/scripts/frame.desktop.min.js" />
+      <file href="html5/lib/scripts/frame.mobile.min.js" />
+      <file href="html5/lib/scripts/slides.min.js" />
+      <file href="html5/lib/stylesheets/desktop.min.css" />
+      <file href="html5/lib/stylesheets/mobile.min.css" />
+      <file href="html5/lib/stylesheets/mobile-fonts/open-sans-bold.woff" />
+      <file href="html5/lib/stylesheets/mobile-fonts/open-sans-light.woff" />
+      <file href="html5/lib/stylesheets/mobile-fonts/open-sans-regular.woff" />
+      <file href="analytics-frame.html" />
+      <file href="story.html" />
+      <file href="launcher.html" />
+      <file href="story_content/external_window.png" />
+      <file href="index_lms.html" />
+      <file href="lms/AICCComm.html" />
+      <file href="lms/blank.html" />
+      <file href="lms/browsersniff.js" />
+      <file href="lms/goodbye.html" />
+      <file href="lms/scormdriver.js" />
+    </resource>
+  </resources>
+</manifest>
