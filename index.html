@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Untitled</title>
+    <link rel="stylesheet" href="./style.css">
+
+  </head>
+    
+  <body>
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Mai Hozien</title>
+</head>
+<body>
+
+<div id="home-view">
+  <div class="hero-container">
+    <header class="navbar">
+      <div class="logo">Mai Hozien</div>
+      <nav class="nav-links">
+        <a href="#">Home</a>
+        <a href="#about-section">About</a>
+        <a href="#order-section">Order Now</a>
+      </nav>
+    </header>
+
+    <div class="hero-content">
+      <div class="text-side">
+        <h1 class="main-title">Mai<br>Shaban Hozien</h1>
+        <div class="about-box">
+          <p class="about-label">About</p>
+          <p class="description">Student at Minia University, working in programming and graphic design.</p>
+        </div>
+        <button class="btn-services" onclick="showServices()">Services</button>
+      </div>
+
+      <div class="image-area">
+        <div class="photo-circle">
+          <img src="https://i.postimg.cc/Kz7Z9YR7/Untitled.png" alt="Mai Shaban">
+        </div>
+        <div class="decoration-right">+++</div>
+        <div class="decoration-bottom-left">
+          <div class="top-row">+ +</div>
+          <div class="bottom-row">+</div>
+        </div>
+        <div class="circle-outline"></div>
+      </div>
+    </div>
+  </div>
+
+  <section id="about-section" class="about-container">
+    <div class="about-cards-wrapper">
+      <div class="info-card">
+        <h3 class="card-title">Personal Info</h3>
+        <p class="info-item">📅 2005</p>
+        <p class="info-item">📍 Minia, Egypt</p>
+        <p class="info-item">📞 01021738676</p>
+        <p class="info-item">✉️ mai.shaban900@gmail.com</p>
+      </div>
+      <div class="info-card">
+        <h3 class="card-title">Skills</h3>
+        <div class="skill-item">
+          <div class="skill-info"><span>Dart</span> <span class="percent">70%</span></div>
+          <div class="progress-bar"><div class="progress" style="width: 70%;"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-info"><span>Python</span> <span class="percent">90%</span></div>
+          <div class="progress-bar"><div class="progress" style="width: 90%;"></div></div>
+        </div>
+      </div>
+      <div class="info-card">
+        <h3 class="card-title">Education</h3>
+        <p class="info-item">🎓 Faculty of Specific Education</p>
+        <p class="info-item">🏛️ Minia University</p>
+        <p class="info-item">✨ Educational Technology</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="order-section" class="order-container">
+    <div class="order-box">
+      <h2 class="order-title">Order Now</h2>
+      <div class="order-form">
+        <div class="input-group">
+          <label>Product Name</label>
+          <input type="text" placeholder="Product name">
+        </div>
+        <div class="input-group">
+          <label>Product Details</label>
+          <textarea placeholder="Write details here"></textarea>
+        </div>
+        <div class="input-group">
+          <label>Phone Number</label>
+          <input type="tel" placeholder="Your phone number">
+        </div>
+        <button class="btn-services" style="width: 100%;">Submit</button>
+      </div>
+    </div>
+  </section>
+</div>
+
+<div id="services-view" class="services-screen" style="display: none;">
+  <button class="back-btn" onclick="hideServices()">← Back</button>
+  <div class="services-grid">
+    <div class="service-box" onclick="window.open('https://nest-safe--maishaban900.replit.app', '_blank')">
+      <h3>Programs</h3>
+      <p>Previous Work</p>
+    </div>
+    <div class="service-box" onclick="window.open('https://sites.google.com/view/aii-artificial-intelligence/%D8%A7%D9%84%D8%B1%D8%A6%D9%8A%D8%B3%D9%8A%D9%87', '_blank')">
+      <h3>Websites</h3>
+      <p>Previous Work</p>
+    </div>
+    <div class="service-box" onclick="openGallery()">
+      <h3>Graphic</h3>
+      <p>Previous Work</p>
+    </div>
+  </div>
+</div>
+
+<div id="gallery-modal" class="modal">
+  <span class="close-modal" onclick="closeGallery()">&times;</span>
+  <div class="modal-content">
+    <div class="gallery-images">
+      <!-- تم وضع روابط صورك الثلاث هنا بنجاح -->
+      <img src="https://i.postimg.cc/MK7Fvjg1/Whats-App-Image-2026-04-24-at-3-28-40-AM.jpg" onclick="expandImage(this)">
+      <img src="https://i.postimg.cc/mrDXXphf/Whats-App-Image-2026-04-24-at-3-28-41-AM-(1).jpg" onclick="expandImage(this)">
+      <img src="https://i.postimg.cc/90GJRvgp/Whats-App-Image-2026-04-24-at-3-28-41-AM.jpg" onclick="expandImage(this)">
+    </div>
+  </div>
+</div>
+
+<div id="full-image-modal" class="modal full-view" onclick="this.style.display='none'">
+  <img id="expanded-img">
+</div>
+
+<script>
+function showServices() {
+  document.getElementById('home-view').style.display = 'none';
+  document.getElementById('services-view').style.display = 'block';
+  window.scrollTo(0, 0);
+}
+function hideServices() {
+  document.getElementById('home-view').style.display = 'block';
+  document.getElementById('services-view').style.display = 'none';
+}
+function openGallery() {
+  document.getElementById('gallery-modal').style.display = 'block';
+}
+function closeGallery() {
+  document.getElementById('gallery-modal').style.display = 'none';
+}
+function expandImage(img) {
+  const fullModal = document.getElementById('full-image-modal');
+  const fullImg = document.getElementById('expanded-img');
+  fullModal.style.display = 'flex';
+  fullImg.src = img.src;
+}
+</script>
+</body>
+</html>
+    <script  src="./script.js"></script>
+
+  </body>
+  
+</html>
